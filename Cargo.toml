@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+steganography = "*"
+stegano-rs = "0.1"
+stegano-cli = "0.6.1"
+lopdf = "0.31"
+whitespace_text_steganography = "0.2.1"
+image = "0.24"
+clap = "4.0"
