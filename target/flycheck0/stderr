@@ -1,0 +1,58 @@
+   0.015208100s  INFO prepare_target{force=false package_id=steganography v0.1.0 (D:\kaggle\steganography) target="steganography"}: cargo::core::compiler::fingerprint: fingerprint error for steganography v0.1.0 (D:\kaggle\steganography)/Check { test: false }/TargetInner { name: "steganography", doc: true, ..: with_path("D:\\kaggle\\steganography\\src\\main.rs", Edition2024) }
+   0.015268000s  INFO prepare_target{force=false package_id=steganography v0.1.0 (D:\kaggle\steganography) target="steganography"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\kaggle\steganography\target\debug\.fingerprint\steganography-1514c74fc486ad2c\bin-steganography`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.027636300s  INFO prepare_target{force=false package_id=steganography v0.1.0 (D:\kaggle\steganography) target="steganography"}: cargo::core::compiler::fingerprint: fingerprint error for steganography v0.1.0 (D:\kaggle\steganography)/Check { test: true }/TargetInner { name: "steganography", doc: true, ..: with_path("D:\\kaggle\\steganography\\src\\main.rs", Edition2024) }
+   0.027665300s  INFO prepare_target{force=false package_id=steganography v0.1.0 (D:\kaggle\steganography) target="steganography"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\kaggle\steganography\target\debug\.fingerprint\steganography-3d445589dced2e43\test-bin-steganography`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking steganography v0.1.0 (D:\kaggle\steganography)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.13s
